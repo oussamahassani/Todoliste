@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title> TO DO LISTE</title>
+  </head>
+  <body>
+    <div class="pading-botom bg-danger">
+      <h3>To Do List</h3>
+      <div class="auto"> 
+      <input type="text" id="text1" placeholder="Title..." class="col-md-4 .ml-auto">
+      <button onclick="newElement()" class="btn btn-primary ">Add</button>
+    </div>
+    </div>
+  <div class="bg-secondary">
+    <ul id="resulta" class="container auto pading-botom">
+      <li class="checked  pading-top"><i class="fa fa-check fa-5"></i>to do liste 1
+        <span class="close"> &#x274C </span>
+      </li>
+
+    </ul>
+    <button type="button" id="clear-list" onclick="effacer()" class="auto margin position bg-danger">Effacer Tout</button>
+    </div>
+    <script type="text/javascript" src="TODOLISTE.JS"></script>
+  </body>
+</html>
